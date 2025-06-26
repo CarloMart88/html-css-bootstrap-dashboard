@@ -59,19 +59,75 @@
       <div class="col-12 my-3">
         <h1>Nuovo Libro </h1>
       </div>
-      <form action="">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
+      <form action="" method="post">
 
-        <div class="col-12"></div>
+        <!--NOME E COGNOME -->
+        <div class="row">
+          <div class="col-6 mb-3">
+            <label for="formGroupExampleInput" class="form-label fw-bold">Nome Autore</label>
+            <input type="text" required class="form-control" id="formGroupExampleInput"
+              placeholder="Inserisci il nome dell'autore">
 
-        <div class="col-12"></div>
-        <div class="col-12"></div>
-        <div class="col-12"></div>
+          </div>
+
+          <div class="col-6 mb-3">
+            <label for="formGroupExampleInput" class="form-label fw-bold">Cognome Autore</label>
+            <input type="text" required class="form-control" id="formGroupExampleInput"
+              placeholder="Inserisci il cognome ">
+
+          </div>
+        </div>
+
+
+        <!--NOME E COGNOME FINE -->
+
+
+
+        <!--TITOLO -->
+
+        <div class="col-12">
+          <label for="formGroupExampleInput" class="form-label fw-bold">Titolo</label>
+          <input type="text" class="form-control" id="formGroupExampleInput"
+            placeholder="Inserisci il titolo del libro">
+          <span>Titolo versione italian</span>
+
+        </div>
+
+        <!--TITOLO FINE-->
+
+        <!--GRUPPO 3 COLONNE  -->
+
+        <div class="col-12">
+          <label for="inputState" class="form-label fw-bold">Genere</label>
+          <select id="inputState" class="form-select">
+            <option selected>Scegli il genere </option>
+            <option>...</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label for="formGroupExampleInput" class="form-label fw-bold">Anno di pubblicazione </label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci l'anno">
+        </div>
+        <div class="col-12">
+          <label for="formGroupExampleInput" class="form-label fw-bold">ISBN#</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci il codice ISBN#">
+        </div>
 
         <hr>
 
-        <div class="col-12"></div>
+        <div class="col-12">
+          <span class="fw-bold"> Note </span>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Inserisci eventuali note sul libro </label>
+          </div>
+        </div>
+
+        <!--GRUPPO 3 COLONNE fine -->
+
+
 
         <div class="col-8"></div>
         <div class="col-7"></div>
